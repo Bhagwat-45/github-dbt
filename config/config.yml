@@ -1,0 +1,15 @@
+api_endpoints:
+    - /repos/{}/{}/pulls?state=all
+    - /repos/{}/{}/issues?state=all
+    - /repos/{}/{}/commits
+    - /repos/{}/{}/releases
+
+repos:
+    dbt-labs:
+        - dbt-utils
+    duckdb:
+        - dbt-duckdb
+    metabase:
+        - metabase
+    apache: 
+        - superset
